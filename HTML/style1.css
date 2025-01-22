@@ -1,0 +1,40 @@
+.html {
+ color: red;
+}
+
+.css{
+    color: blue;
+}
+
+.javascript{
+    color: blueviolet;
+}
+
+.react{
+    color: yellow;
+    font-size: 32px;
+}
+
+.tailwind{
+    color: limegreen;
+    font-size: 32px;
+}
+
+#html{
+    font-size: 32px;
+}
+
+#css{
+    font-size: 32px;
+}
+#javascript{
+    font-size: 32px;
+}
+
+h1:hover {
+    color: blueviolet;
+}
+
+[money]:hover{
+    color: goldenrod;
+}

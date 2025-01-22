@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice set</title>
+    
+     <link rel="stylesheet" href="first.css">
+
+</head>
+<body>
+<button class="bag-button" onclick="
+   cartQuantity= cartQuantity+1;
+   document.querySelector('#cart-summary').
+   innerText = 'Your bag has ${cartQuantity} items';
+   ">Add to Bag</button>
+<button class="wish-button" onclick="alert('added to wishlist')">❤️ Wishlist</button>
+
+<!--
+    <button class="class-button">click me!</button>
+    <button id="id-button">id button</button>
+    <button class="class-button">class-button</button>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel magni molestiae voluptatum quasi facere necessitatibus consequatur exercitationem officia veritatis perferendis reprehenderit quas nihil, esse quod reiciendis praesentium veniam cupiditate delectus.
+   </p>-->
+   <h1 id =" cart-summary"></h1>
+    <script> //alert('Welcome buddy')
+        let cartQuantity = 0;
+        document.querySelector('#cart-summary').
+        innertext = 'Your bag has ' + cartQuntity + ' items';
+    </script>   
+</body>
+</html>

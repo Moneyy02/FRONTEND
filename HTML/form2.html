@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form>
+            <h2>
+                Job application
+            </h2>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name">
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email"> 
+            <br>
+            <label for="phone">phone:</label><br>
+            <input type="tel" id="phone">
+            <br>
+            <label for="fileupload">Resume:</label><br>
+<input type="file" name="fileupload" id="fileupload">
+<br>
+
+<label for="counter">Experience (in years):</label>
+<input type="number" name="counter" id="counter" min="0" max="50">
+       <fieldset>
+        <legend>scales</legend>
+        <label for="radio1">html</label>
+        <input type="radio" name="radio" id="radio1">
+    <label for="radio2">css</label>
+    <input type="radio" name="radio" id="radio2">
+    
+    <label for="radio3">javascript</label>
+    <input type="radio" name="radio" id="radio3">
+    
+       </fieldset> 
+       <br>  
+       <label for="highest education">highest education</label>  
+       <select name="education" id="education">
+        <option value="btech">btech</option>
+        <option value="12th">12th</option>
+        <option value="phd">phd</option>
+       </select>
+       <fieldset>
+        <legend>availability</legend>
+        <label for="radio1">full time</label>
+        <input type="radio" name="radio" id="radio1"><br/>
+        <label for="radio2">part time</label>
+        <input type="radio" name="radio" id="radio2"><br/>
+       </fieldset>
+       <label for="comment">Additional comment:</label>
+<br>
+<textarea name="comment" id="comment" cols="40" rows="10"></textarea>
+<button>submit application</button>
+        </form>
+    </body>
+</html>
